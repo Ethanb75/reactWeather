@@ -36,6 +36,7 @@ module.exports = {
             WeatherForm: 'app/components/WeatherForm.jsx',
             CityWeather: 'app/components/CityWeather.jsx',
             openWeatherMap: 'app/api/openWeatherMap.jsx',
+            ErrorModal: 'app/components/ErrorModal.jsx'
         },
         // find files with no extension , js, and jsx 
         extensions: ['','.js','.jsx']
