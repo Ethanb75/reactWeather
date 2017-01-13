@@ -12,6 +12,7 @@ var Nav = React.createClass({
        return (
             //className prevents conflicts between the jsx class property
             <div className="top-bar">
+                
                 <div className="top-bar-left">
                     <ul className="menu">
                         <li className="menu-text">Simple React Weather</li>
