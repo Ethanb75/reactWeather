@@ -11,7 +11,7 @@ var React = require('react');
 var CityWeather = (props) => {
      var {temp, location} = props;
         return (
-            <h1>In {location}, it is {temp}</h1>
+            <h2 className="text-center">In {location}, it is {temp}</h2>
         );
 };
 module.exports = CityWeather;
