@@ -1,6 +1,23 @@
+var webpack = require('webpack')
+
 module.exports = {
     // tells webpack where to start processing code
-    entry: './app/app.jsx',
+    entry: [
+        //script! is a script loader function to load scripts not a part of webpack
+        'script!jquery/dist/jquery.min.js',
+        'script!foundation-sites/dist/js/foundation.min.js',
+        './app/app.jsx'
+        ],
+        externals: {
+            jquery: 'jQuery'
+        },
+        plugins: [
+            //makes jquery available whenever a specific character is used
+            new webpack.ProvidePlugin({
+                '$': 'jquery',
+                'jQuery': 'jquery'
+            })
+        ],
     output: {
         // __dirname is a part of node.js
         path: __dirname,

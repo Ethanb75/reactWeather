@@ -10,7 +10,7 @@ var React = require('react');
 var Examples = (props) => {
     //code from render
     return (
-        <h3>Examples component</h3>
+        <h3>Examples: </h3>
     );
 };
 module.exports = Examples;

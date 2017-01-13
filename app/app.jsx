@@ -14,6 +14,12 @@ var Main = require('Main');
 var Weather = require('Weather');
 var About = require('About');
 var Examples = require('Examples');
+
+
+//load in foundation in js (wew lad)
+require('style!css!foundation-sites/dist/css/foundation.min.css')
+$(document).foundation();
+
 ReactDOM.render(
 	// use the name attribute plus ="" to pass values into the render function
 	// the path route will be rendered if the route is '/' then 'about'
