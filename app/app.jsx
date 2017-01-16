@@ -21,7 +21,7 @@ require('style!css!foundation-sites/dist/css/foundation.min.css')
 $(document).foundation();
 
 //require for our custom app.css
-require('style!css!applicationStyle');
+require('style!css!sass!applicationStyle');
 
 ReactDOM.render(
 	// use the name attribute plus ="" to pass values into the render function

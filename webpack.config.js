@@ -37,7 +37,7 @@ module.exports = {
             CityWeather: 'app/components/CityWeather.jsx',
             openWeatherMap: 'app/api/openWeatherMap.jsx',
             ErrorModal: 'app/components/ErrorModal.jsx',
-            applicationStyle: 'app/styles/app.css'
+            applicationStyle: 'app/styles/app.scss'
         },
         // find files with no extension , js, and jsx 
         extensions: ['','.js','.jsx']
