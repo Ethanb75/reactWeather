@@ -16,7 +16,7 @@ module.exports = {
             }
         },function(res){
             //open map doesn't use 404 for bad requests, they use their own syntax
-            throw new Error(res.data.message);
+            throw new Error("Unable to fetch weather for that location");
         });
     }
 }
