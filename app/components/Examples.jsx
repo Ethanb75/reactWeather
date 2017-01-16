@@ -6,7 +6,7 @@ var Examples = (props) => {
     //code from render
     return (
         <div>
-            <h1 className="text-center">Examples: </h1>
+            <h1 className="text-center page-title">Examples: </h1>
             <p> Here are a few examples of locations to try</p>
             <ol className="">
                 <li>
